@@ -5,9 +5,16 @@
 
 .macondo-regular {
   font-family: "Macondo", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.diplomata-regular {
+  font-family: "Diplomata", serif;
   font-weight: 400;
   font-style: normal;
 }
+
 
 .glow-text {
   color: #fdf6ff;
@@ -19,3 +26,10 @@
     0 0 60px #6600ff,
     0 0 80px #3300ff;
 }
+
+/* @keyframes pan {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+} */
+
+
