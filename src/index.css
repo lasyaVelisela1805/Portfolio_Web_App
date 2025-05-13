@@ -1,3 +1,21 @@
 @import "tailwindcss";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.glow-text {
+  color: #fdf6ff;
+  text-shadow:
+    0 0 5px #ff00cc,
+    0 0 10px #ff00cc,
+    0 0 20px #ff00cc,
+    0 0 40px #9900ff,
+    0 0 60px #6600ff,
+    0 0 80px #3300ff;
+}
