@@ -5,19 +5,16 @@ import image1 from '../assets/image_1.png';
 const services = [
   {
     title: 'Diary and Encounter',
-    description: 'Building responsive and scalable web applications.',
     link: '/service-one',
     image: image1,
   },
   {
     title: 'Personal Blog',
-    description: 'Creating beautiful and user-friendly designs.',
     link: '/service-two',
     image: image1, // placeholder
   },
   {
-    title: 'Cultural Representation',
-    description: 'Improving website rankings on search engines.',
+    title: 'Cultural Analysis',
     link: '/service-three',
     image: image1, // placeholder
   },
