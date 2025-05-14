@@ -103,7 +103,7 @@ const ServiceOne = () => {
 
                         <p className="mb-4 arial">As Bourdieu famously said, “In a market where the legitimate language is imposed, all linguistic production is evaluated in relation to the norm of the legitimate language” (Bourdieu, 1991p: 55). I really connected with this quote because I started to notice how I was subconsciously measuring my own speech against that norm and falling short. Over time, I found myself trying to fix the way I speak, not just to be understood, but to be taken seriously and to leave an impression on my peers in the place of work. I carried an unseen pressure to sound more correct, didn’t just change how I talked, it began to affect how I saw myself in relation to my classmates, making me question and prove that I belong in the same space as them. (Bourdieu, 1991) </p>
 
-                        <p className="mb-4 arial">Sometimes when people talk to each other, they sometimes can change how they speak to match the traits of others, for example talking faster, using the same words pr even acting more formally or they might even talk differently on purpose if they don’t want to fit in. According to the Communication Accommodation Theory (CAT), by (Giles and Coupland,1991). </p>
+                        <p className="mb-4 arial">Sometimes when people talk to each other, they can change how they speak to match the traits of others, for example talking faster, using the same words or even acting more formally or they might even talk differently on purpose if they don’t want to fit in. According to the Communication Accommodation Theory (CAT), by (Giles and Coupland,1991). </p>
                         <div className="page__number">3</div>
                     </div>
                 ); 
@@ -155,10 +155,11 @@ const ServiceOne = () => {
                             />
                         </div>
 
-<br />
-                        <h1 class="font-bold text-2xl border-4 border-gray-500 rounded-xl p-4 text-center bg-gray-100 shadow-md w-fit mx-auto">
-  Word Count = 1571
-</h1>
+                        <div className="flex justify-end mb-4">
+  <p className="arial">(Norton,2013)</p>
+</div>
+
+
 
 
 
@@ -166,10 +167,32 @@ const ServiceOne = () => {
                     </div>
                 );
 
-            case 7:
+                case 7:
+                    return (
+                        <div className="page__content">
+                            <h1 className="page__content-title">VI</h1>
+    
+                            <p className="mb-4 arial">Language is never neutral. Although I’ve gained fluency and confidence over time, I now see the hidden pressures that influenced that journey. My desire to sound “native” wasn’t just about fitting in, it was shaped by deeper, systemic ideas about which ways of speaking are valued, and which are not. Language carries ideologies, histories, and power structures, and it often decides who gets to be heard and who doesn’t. Understanding these dynamics has helped me stop seeing my accent as a flaw and start seeing it as a reflection of my multilingual identity and I started to sometimes embrace it, though I’ve adapted myself I'm not letting go of my cultural self. I’ve learned to value the diversity in my voice, and I now believe that different Englishers should be respected, not ranked.</p>
+    
+
+    
+    
+    
+    <br />
+                            <h1 class="font-bold text-2xl border-4 border-gray-500 rounded-xl p-4 text-center bg-gray-100 shadow-md w-fit mx-auto">
+      Word Count = 1571
+    </h1>
+    
+    
+    
+                            <div className="page__number">8</div>
+                        </div>
+                    );
+
+            case 8:
                 return (
                     <div className="page__content">
-                        <h1 className="page__content-title">VI</h1>
+                        <h1 className="page__content-title">VII</h1>
 
                         <div className="references-section mt-8">
     <h2 className="text-xl font-bold mb-4">References (Harvard Style)</h2>
@@ -188,14 +211,14 @@ const ServiceOne = () => {
     </ul>
   </div>
 
-                        <div className="page__number">7</div>
+                        <div className="page__number">8</div>
                     </div>
                 );
 
-                case 8:
+                case 9:
                     return (
                         <div className="page__content">
-                            <h1 className="page__content-title">VII</h1>
+                            <h1 className="page__content-title">VIII</h1>
     
                             <div className="references-section mt-8">
        
@@ -388,14 +411,15 @@ const ServiceOne = () => {
                             className="book__page book__page--left book__page--cover"
                             onClick={handleNextPage}
                           >
-                            <div className="w-full h-full flex flex-col items-center justify-center bg-[#F5F5F5] p-8">
-                              <h1 className="text-4xl md:text-5xl font-bold text-center text-[#2A2935] font-['Tulpen_One']">
-                                Lost in Translation:
-                              </h1>
-                              <h2 className="text-2xl md:text-3xl text-center text-[#2A2935] mt-4 font-['Cormorant_Garamond']">
-                                Language Ideology, Accent Anxiety, and Identity Shifts in an Intercultural Space
-                              </h2>
-                            </div>
+                            <div className="w-full h-full bg-[#001f3d] p-8 flex flex-col items-center justify-center">
+  <h1 className="text-4xl md:text-5xl font-bold text-center text-white font-['Tulpen_One']">
+    Lost in Translation:
+  </h1>
+  <h2 className="text-2xl md:text-3xl text-center text-white mt-4 font-['Cormorant_Garamond']">
+    Language Ideology, Accent Anxiety, and Identity Shifts in an Intercultural Space
+  </h2>
+</div>
+
                           </div>
                         )}
 
