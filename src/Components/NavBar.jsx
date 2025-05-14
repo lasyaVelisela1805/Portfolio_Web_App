@@ -5,10 +5,14 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex flex-col">
-          <span className="text-xl font-bold leading-none">Intercultural</span>
-          <span className="text-xl font-bold">communications</span>
-        </div>
+      <div className="flex flex-col font-['Limelight'] tracking-wide">
+      <span className="text-2xl font-bold leading-none text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-yellow-400">
+        Intercultural
+      </span>
+      <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500">
+        communications
+      </span>
+    </div>
         
         <ul className="hidden md:flex space-x-6">
           <li><a href="/" className="hover:text-gray-300 transition">Home</a></li>

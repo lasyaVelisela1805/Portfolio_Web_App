@@ -378,7 +378,7 @@ const ServiceOne = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <p className="text-lg font-medium">Word count: <span className="text-purple-300">1327</span></p>
+              <p className="text-lg font-medium">Word count: <span className="text-purple-300">1220</span></p>
             </motion.div>
           </motion.div>
 

@@ -84,7 +84,7 @@ const ServiceOne = () => {
                 return (
                     <div className="page__content">
                         <h1 className="page__content-title">I</h1>
-                        <p className="mb-4 arial">This is a personal reflection from me — Moru — an international student who had to find her way through a completely new language and culture. In this diary and encounter, I talk about something that I've experienced during my initial days at university that shaped how I saw myself and how I communicated with others.
+                        <p className="mb-4 arial">This is a personal reflection from me — Peeku — an international student who had to find her way through a completely new language and culture. In this diary and encounter, I talk about something that I've experienced during my initial days at university that shaped how I saw myself and how I communicated with others.
                             Back then, these experiences made me feel uncomfortable and confused. But learning about intercultural communications helped me reflect back on those incidents, and applying the theories gave me a deeper understanding of what I went through and how it is shaping and influencing who I am becoming.
                         </p>
 
@@ -180,7 +180,7 @@ const ServiceOne = () => {
     
     <br />
                             <h1 class="font-bold text-2xl border-4 border-gray-500 rounded-xl p-4 text-center bg-gray-100 shadow-md w-fit mx-auto">
-      Word Count = 1571
+      Word Count = 1637
     </h1>
     
     

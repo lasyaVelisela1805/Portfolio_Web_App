@@ -114,7 +114,7 @@ const ServiceTwo = () => {
           visible: { opacity: 1, y: 0 }
         }
       }
-      
+
     // ... (other sections remain the same)
   ];
 
@@ -197,7 +197,7 @@ const ServiceTwo = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-lg font-medium">Word count: <span className="text-blue-300">1327</span></p>
+            <p className="text-lg font-medium">Word count: <span className="text-blue-300">1336</span></p>
           </motion.div>
 
           {/* References Section */}
